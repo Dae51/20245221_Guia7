@@ -8,7 +8,7 @@ const imprimir = document.getElementById("idImprimirResultado");
 const contarElementos = function (elemento){
     let arrayElement = document.getElementsByTagName(elemento);
     console.log(
-        `Etiquetas buscadas <${elemento}></${elemento}> / Total encontradas : ${arrayElement.length}`
+        `Etiquetas: <${elemento}></${elemento}> / Total encontradas : ${arrayElement.length}`
     );
 
     for (const i of arrayElement){
